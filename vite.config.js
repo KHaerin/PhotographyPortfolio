@@ -1,5 +1,5 @@
 import {defineConfig} from 'vite'
-
+import path from 'path';
 
 export default defineConfig({
 	plugins: [],	
@@ -8,12 +8,12 @@ export default defineConfig({
 		outDir: 'dist',
         rollupOptions: {
             input: {
-                index: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/index.html',
-                about: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/about.html',
-                Cancalanog: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/Cancalanog.html',
-                bon: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/bon.html',
-                Simala: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/Simala.html',
-                Otaku: 'C:/Users/hunny/Desktop/Dev/Photography Portoflio/Otaku.html',
+                index: path.resolve(__dirname, 'index.html'),
+                about: path.resolve(__dirname, 'about.html'),
+                Cancalanog: path.resolve(__dirname, 'Cancalanog.html'),
+                bon: path.resolve(__dirname, 'bon.html'),
+                Simala: path.resolve(__dirname, 'Simala.html'),
+                Otaku: path.resolve(__dirname, 'Otaku.html'),
             },
           },
 	  },
