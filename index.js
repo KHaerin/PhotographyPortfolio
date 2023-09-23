@@ -1,5 +1,5 @@
 const imgContainers = document.querySelectorAll('.img-container');
-const imgTexts = document.querySelectorAll('.img-text-1, .img-text-2, .img-text-3, .img-text-4');
+const imgTexts = document.querySelectorAll('.img-text-1, .img-text-2, .img-text-3, .img-text-4, .img-text-5');
 
 imgContainers.forEach((container, index) => {
     container.addEventListener('mouseenter', () => {
@@ -20,7 +20,7 @@ imgContainers.forEach((container, index) => {
 
     container.addEventListener('click', () => {
         // Define the target HTML file for each image
-        const targetFiles = ['Cancalanog.html', 'Simala.html', 'Otaku.html', 'bon.html'];
+        const targetFiles = ['Cancalanog.html', 'Simala.html', 'Otaku.html', 'bon.html', 'sonder.html'];
 
         // Check if the current index is within the range of targetFiles
         if (index < targetFiles.length) {
@@ -31,7 +31,7 @@ imgContainers.forEach((container, index) => {
 
     imgTexts[index].addEventListener('click', () => {
         // Define the target HTML file for each image
-        const targetFiles = ['Cancalanog.html', 'Simala.html', 'Otaku.html', 'bon.html'];
+        const targetFiles = ['Cancalanog.html', 'Simala.html', 'Otaku.html', 'bon.html', 'sonder.html'];
 
         // Check if the current index is within the range of targetFiles
         if (index < targetFiles.length) {

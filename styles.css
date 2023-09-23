@@ -47,7 +47,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 4% 2%;
     margin: 1.5% 15% 2%;
-    padding-bottom: 5%;
+    padding-bottom: 15%;
 }
 
 .img-grid {
@@ -73,7 +73,8 @@ body{
 .img-text-1,
 .img-text-2,
 .img-text-3,
-.img-text-4 {
+.img-text-4,
+.img-text-5 {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -97,7 +98,8 @@ body{
 .img-text-1:hover,
 .img-text-2:hover,
 .img-text-3:hover,
-.img-text-4:hover{
+.img-text-4:hover,
+.img-text-5:hover{
   opacity: 0;
   cursor: pointer;
 }
@@ -105,7 +107,8 @@ body{
 .img-container:hover + .img-text-1,
 .img-container:hover + .img-text-2,
 .img-container:hover + .img-text-3,
-.img-container:hover + .img-text-4{
+.img-container:hover + .img-text-4,
+.img-container:hover + .img-text-5{
   opacity: 0;
 }
 

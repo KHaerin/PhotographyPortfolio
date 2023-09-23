@@ -14,6 +14,7 @@ export default defineConfig({
                 bon: path.resolve(__dirname, 'bon.html'),
                 Simala: path.resolve(__dirname, 'Simala.html'),
                 Otaku: path.resolve(__dirname, 'Otaku.html'),
+                sonder: path.resolve(__dirname, 'sonder.html')
             },
           },
 	  },
