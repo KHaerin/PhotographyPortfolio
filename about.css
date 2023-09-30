@@ -2,7 +2,7 @@ body{
     background-image: url(simala-images/CCU06183.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    
     background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value (0.7 in this example) to control the transparency */
 
 }
