@@ -125,10 +125,11 @@
   @media screen  and (max-width: 420px) {
 
       .secImg, .thirdImg{
-        max-width: 100px;
+        max-width: 50px;
         max-height: 500px;
       }
 
+    
       .fifthImg, .sixthImg{
         max-width: 400px;
       }
