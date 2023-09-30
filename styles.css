@@ -155,7 +155,7 @@ body{
 
 @media screen  and (max-width: 420px) {
     .photos{
-      max-width: 100px;
+      max-width: 500px;
       max-height: 400px;
     }
 
