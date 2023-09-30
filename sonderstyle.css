@@ -76,6 +76,7 @@
 }
 
 .thirdImg{
+  
 	max-width:406px;
 	margin-right: auto;
     margin-left: auto;
@@ -88,31 +89,21 @@
   gap: 9%;
 }
 
-.double-image-2{
-	display: flex;
-	margin-left: 7%;
-  
-	gap: 5%
-    
-}
-
 .fourthImg{
 	max-width:938px;
 	width: 100%;
 }
 
 .fifthImg{
-	max-width: 474px;
+	max-width: 938px;
 	width: 100%;
-	max-height:267px;
-	height: 100%;
+	
 }
 
 .sixthImg{
-	max-width:631px;
+	max-width:938px;
 	width: 100%;
-	max-height: 355px;
-	height: 100%;
+	
 }
 
 .footer{
@@ -130,4 +121,34 @@
     text-decoration: underline;
   }
   
+
+  @media screen  and (max-width: 420px) {
+
+      .secImg, .thirdImg{
+        max-width: 100px;
+        max-height: 500px;
+      }
+
+      .fifthImg, .sixthImg{
+        max-width: 400px;
+      }
+
+      .sondertxt{
+        font-size: clamp(0.375rem, -0.4205rem + 6.3636vw, 1.25rem);
+      }
+    
+      
+
+  .menu-bar li a {
+   
+   font-size: clamp(0.375rem, 0.0341rem + 2.7273vw, 0.75rem);
+
+  }
+
+  .footer a{
+    font-size: clamp(0.375rem, 0.0341rem + 2.7273vw, 0.75rem);
+  }
+  
+ 
+}
   
