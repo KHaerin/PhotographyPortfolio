@@ -125,8 +125,13 @@
   @media screen  and (max-width: 420px) {
 
       .secImg, .thirdImg{
-        max-width: 50px;
+        max-width: 120px ;
         max-height: 500px;
+      }
+
+      .double-image{
+        gap: 15%;
+        margin-left: -1%;
       }
 
     
